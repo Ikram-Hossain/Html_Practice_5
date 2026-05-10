@@ -6,7 +6,7 @@
 }
 
 
-/* flag_1 css start */
+/* flag_1_bangladesh css start */
 
 /* .main{
     width:800px;
@@ -68,11 +68,15 @@
     transform: translatex(-50%);
 } */
 
-/* flag_1 css end */
+/* flag_1_bangladesh css end */
 
-/* flag_2 css start */
 
-body{
+
+
+
+/* flag_2_brazil css start */
+
+/* body{
     background-color: rgba(0, 0, 0, 0.885);
 }
 .main{
@@ -134,16 +138,61 @@ img{
     background-color: white;
     position: relative;
     z-index: 3;
+} */
+
+/* flag_2_brazil css end */
+
+/* flag_3_cuba css start */
+
+.main{
+    width: 900px;
+    height: 500px;
+    background-color: red;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
 }
 
+.triangle{
+    height: 100%;
+    width: 50%;
+    background-color: red;
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    position: absolute;
+    left : 0;
+    top: 0;
+}
 
+.star{
+    width: 200px;
+    height: 200px;
+    background-color:yellow;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translate(-30% , -50%);
+}
 
+.part1{
+    height: 100px;
+    background-color:blue;
+}
+.part2{
+    height: 100px;
+    background-color:white;
+}
+.part3{
+    height: 100px;
+    background-color:blue;
+}
+.part4{
+    height: 100px;
+    background-color:white;
+}
+.part5{
+    height: 100px;
+    background-color:blue;
+}
 
-
-
-
-
-
-
-
-/* flag_2 css end */
+/* flag_3_cuba css end */
