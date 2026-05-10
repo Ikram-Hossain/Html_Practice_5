@@ -5,7 +5,10 @@
 
 }
 
-.main{
+
+/* flag_1 css start */
+
+/* .main{
     width:800px;
     height:400px;
     background-color: green;
@@ -63,4 +66,84 @@
     left: 50%;
     bottom: 0;
     transform: translatex(-50%);
+} */
+
+/* flag_1 css end */
+
+/* flag_2 css start */
+
+body{
+    background-color: rgba(0, 0, 0, 0.885);
 }
+.main{
+    height: 600px;
+    width: 800px;
+    background-color: red;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+.shape1{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    top: 0;
+    clip-path: polygon(0 0, 0 5%, 100% 100%, 0% 100%);
+
+}
+.shape2{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+    z-index: 9;
+    right: 0;
+    top: 0;
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 0% 100%);
+
+}
+
+.one{
+    height: 230px;
+    background-color: black;
+    position: relative;
+}
+
+img{
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    
+    
+
+}
+.two{
+    height: 140px;
+    background-color:lightblue ;
+    position: relative;
+    z-index: 2; 
+}
+.three{
+    height: 230px;
+    background-color: white;
+    position: relative;
+    z-index: 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* flag_2 css end */
