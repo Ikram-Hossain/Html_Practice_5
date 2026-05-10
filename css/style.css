@@ -2,9 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
-
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
 }
 
+li{
+    list-style: none;
+
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
 
 /* flag_1_bangladesh css start */
 
@@ -142,9 +153,13 @@ img{
 
 /* flag_2_brazil css end */
 
+
+
+
+
 /* flag_3_cuba css start */
 
-.main{
+/* .main{
     width: 900px;
     height: 500px;
     background-color: red;
@@ -193,6 +208,42 @@ img{
 .part5{
     height: 100px;
     background-color:blue;
-}
+} */
 
 /* flag_3_cuba css end */
+
+
+
+
+/* menu start */
+
+.main{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 20%;
+}
+.logo img{
+    height: 100px;
+}
+
+.link{
+    width: 80%;
+}
+
+.link ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link li{
+    margin-left:30px;
+}
+
+
+
+/* menu end */
+
+
