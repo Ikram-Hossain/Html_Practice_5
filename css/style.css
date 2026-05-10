@@ -25,6 +25,28 @@
 
 }
 
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.tan{
+    width: 100px;
+    height: 100px;
+    background-color:white ;
+    clip-path: polygon(34% 25%, 70% 36%, 100% 44%, 100% 64%, 68% 51%, 31% 41%, 0 39%, 0 24%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+
 .bar{
     height: 800px;
     width: 20px;
