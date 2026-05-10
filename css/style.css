@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+
+}
+
+.main{
+    width:800px;
+    height:400px;
+    background-color: green;
+    margin: auto;
+    position: relative;
+}
+
+.flag{
+    width: 700px;
+    height: 400px;
+    background-color: yellow;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+
+}
+
+.bar{
+    height: 800px;
+    width: 20px;
+    background-color: black;
+    position: relative;
+}
+
+.squre{
+    width: 100px;
+    height: 100px;
+    clip-path: polygon(35% 0, 64% 0, 100% 100%, 0% 100%);
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translatex(-50%);
+}
